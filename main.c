@@ -35,7 +35,7 @@ int main(void){
   print_titulo("HISTOGRAFO", 7);
   do{
     printf("\n\nIngrese las palabras a analizar (/fin para finalizar): \n");
-
+    salida = 1;
     while(salida){
       scanf("%s", palabra);
       if(!strcmp(palabra, "/fin")){
