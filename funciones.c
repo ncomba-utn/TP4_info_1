@@ -69,7 +69,7 @@ void analizar_palabra(char * palabra, int * mayusculas, int * minusculas){
     j = 0;
     while(palabra[j] != '\0'){
       if(palabra[j] == A_MAY + i){
-        mayusculas[j]++;
+        mayusculas[i]++;
       }
       j++;
     }
@@ -79,7 +79,7 @@ void analizar_palabra(char * palabra, int * mayusculas, int * minusculas){
     j = 0;
     while(palabra[j] != '\0'){
       if(palabra[j] == A_MIN + i){
-        minusculas[j]++;
+        minusculas[i]++;
       }
       j++;
     }
